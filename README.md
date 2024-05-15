@@ -1,6 +1,9 @@
 Họ và tên: Phương Minh Duy
+
 MSSV: K205480106011
+
 Đề tài: Cảm biến khí gas trong không khí
+
 1. Cơ sở dữ liệu
 -Bảng: Lưu thông tin gồm thời gian và số liệu
 2. Module đo nồng độ khí gas
