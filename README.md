@@ -2,13 +2,13 @@ Họ và tên: Phương Minh Duy
 
 MSSV: K205480106011
 
-Đề tài: Website theo dõi giá đồng yên Nhật
+Đề tài: website theo dõi giá đồng GBP (bảng Anh)
 
 1. Cơ sở dữ liệu
 
 -Bảng: Lưu thông tin gồm thời gian và số liệu
 
-2. Sử dụng FastApi và python để tạo ra 1 API từ các trang web về giá đồng yên Nhật
+2. Sử dụng FastApi và python để tạo ra 1 API từ các trang web về giá đồng GBP
 
 -ExchangeRate-API
 
