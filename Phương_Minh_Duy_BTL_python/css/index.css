@@ -1,0 +1,88 @@
+/* Đặt lại mặc định của một số thẻ HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling cho header */
+header {
+    background-color: rgb(232, 132, 39);
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/*  MAIN */
+.main_container {
+    
+    margin: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* Căn giữa theo chiều ngang */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+}
+
+thead th {
+    text-align: center; /* Căn giữa nội dung trong thead */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */   
+}
+
+thead th:first-child, tbody td:first-child {
+    max-width: 30px; /* Giới hạn độ rộng tối đa của cột đầu tiên */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    white-space: nowrap; /* Không xuống dòng */
+    text-overflow: ellipsis; /* Thêm dấu ba chấm nếu nội dung quá dài */
+}
+
+thead th:nth-child(2), tbody td:nth-child(2) {
+    max-width: 50px; /* Giới hạn độ rộng tối đa của cột thứ hai */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    white-space: nowrap; /* Không xuống dòng */
+    text-overflow: ellipsis; /* Thêm dấu ba chấm nếu nội dung quá dài */
+}
+
+thead th:nth-child(4), tbody td:nth-child(4) {
+    max-width: 50px; /* Giới hạn độ rộng tối đa của cột thứ hai */
+    overflow: hidden; /* Ẩn nội dung tràn */
+    white-space: nowrap; /* Không xuống dòng */
+    text-overflow: ellipsis; /* Thêm dấu ba chấm nếu nội dung quá dài */
+}
